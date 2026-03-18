@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-
+ 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,7 +17,7 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+ 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -26,17 +26,65 @@
     transform: rotate(360deg);
   }
 }
-
+ 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
-
+ 
 .card {
   padding: 2em;
 }
-
+ 
 .read-the-docs {
   color: #888;
+}
+ 
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+ 
+.modal {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: min(92%, 480px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transform: translateY(8px);
+  opacity: 0;
+  animation: modal-in 180ms ease-out forwards;
+  transition: transform 180ms cubic-bezier(.2,.8,.2,1), box-shadow 180ms ease, opacity 180ms ease;
+}
+ 
+@keyframes modal-in {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+ 
+.modal h3 {
+  margin-top: 0;
+}
+ 
+.modal button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #646cff;
+  color: white;
+  cursor: pointer;
+}
+ 
+.modal button:hover {
+  filter: brightness(0.95);
 }
