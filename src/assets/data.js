@@ -1,5 +1,21 @@
 export const predefinedDrinks = [
-  { name: "Pivo 0.5l (12°)", volume: 500, alcohol: 5 },
-  { name: "Víno 0.2l", volume: 200, alcohol: 12 },
-  { name: "Panák 0.04l", volume: 40, alcohol: 40 }
+  { name: "🍺 Pivo 0.5l (5%)", volume: 500, alcohol: 5, image: "beerBig.png" },
+  { name: "🍺 Malé pivo 0.3l (5%)", volume: 300, alcohol: 5, image: "beerSmall.png" },
+  { name: "🍷 Víno 0.2l (12%)", volume: 200, alcohol: 12, image: "red_wine2.png" },
+  { name: "🥃 Panák vodky 0.04l (40%)", volume: 40, alcohol: 40, image: "vodka.png" },
+  { name: "🥃 Panák rumu 0.04l (40%)", volume: 40, alcohol: 40, image: "whiskey-rum-scotch.png" },
+  { name: "🥃 Panák whisky 0.04l (40%)", volume: 40, alcohol: 40, image: "whiskey-rum-scotch.png" },
+  { name: "🍹 Mojito 0.250l (15%)", volume: 250, alcohol: 15, image: "mojito.png" },
+  { name: "🍹 Aperol Spritz 0.250l (11%)", volume: 200, alcohol: 11, image: "aperol.png" },
+  { name: "🍾 Šampaňské 0.15l (12%)", volume: 150, alcohol: 12, image: "sekt.png" },
+  { name: "🍸 Gin Tonic 0.250l (14%)", volume: 250, alcohol: 14, image: "wine-spritz.png" },
+  { name: "🥃 Panák Slivovice 0.05l (53%)", volume: 5, alcohol: 53, image: "shot.png" },
+  { name: "🥃 Tuzemák 0,05l (40%)", volume: 5, alcohol: 40, image: "becherovka.png" },
+  { name: "🍷 Blody Mary 0.3l (12%)", volume: 300, alcohol: 12, image: "red_wine2.png" },
+  { name: "🍹 Sex on the Beach 0.3l (14%)", volume: 300, alcohol: 14, image: "sex-on-the-beach.png" },
+  { name: "🍹 Vodka & Džus 0.3l (14%)", volume: 300, alcohol: 14, image: "juice.png" },
+  { name: "🍹 Modrá laguna 0.2l (12%)", volume: 300, alcohol: 12, image: "wine-spritz.png" },
+  { name: "🥛 Vaječný koňak 0.2l (14%)", volume: 200, alcohol: 14, image: "juice-jahodovy.png" },
+  { name: "🍹 Piňa Colada 0.3l (13%)", volume: 300, alcohol: 13, image: "pina-colada.png" },
+  { name: "🍸 Absinth 0.05l (70%)", volume: 5, alcohol: 70, image: "zelena.png" }
 ];
